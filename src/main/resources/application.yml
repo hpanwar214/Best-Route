@@ -1,0 +1,45 @@
+data:
+  mode: local
+  speed: 20
+  customers:
+    - id: 0
+      name: C1
+      location:
+        latitude: 12.9352
+        longitude: 77.6245
+    - id: 1
+      name: C2
+      location:
+        latitude: 12.9250
+        longitude: 77.9270
+
+  restaurants:
+    - id: 0
+      name: R1
+      location:
+        latitude: 12.9337
+        longitude: 77.6101
+    - id: 1
+      name: R2
+      location:
+        latitude: 12.9278
+        longitude: 77.6270
+
+  orders:
+    - id: 0
+      delivery_executive_id: 0
+      restaurant_id: 0
+      customer_id: 0
+      processing_time: 1
+    - id: 1
+      delivery_executive_id: 0
+      restaurant_id: 1
+      customer_id: 1
+      processing_time: 1.5
+
+  delivery_executives:
+    - id: 0
+      name: AMAN
+      current_location:
+        latitude: 12.9352
+        longitude: 77.6245
