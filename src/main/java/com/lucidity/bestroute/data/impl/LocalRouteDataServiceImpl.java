@@ -58,8 +58,8 @@ public class LocalRouteDataServiceImpl implements RouteDataService {
         temp.add(new Order(5,1,2,2, 0.5));
         temp.add(new Order(6,1,0,3, 1.0));
         temp.add(new Order(7,1,1,0, 0.4));
-        temp.add(new Order(8,1,2,3, 1.6));
-        temp.add(new Order(9,1,2,1, 0.7));
+//        temp.add(new Order(8,1,2,3, 1.6));
+//        temp.add(new Order(9,1,2,1, 0.7));
         return temp;
     }
     List<DeliveryExecutive> createDeliveryExecutives(){
